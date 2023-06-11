@@ -6,23 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Josefin+Sans&family=Libre+Baskerville:wght@700&family=Tilt+Prism&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <h1>My Resume</h1>
     <hr />
     <h2>About Me</h2>
-    <img src="./assets/images/jeevesh.png" height="300">
+    <div class="about" class="detail">
+        <img id="profile" src="./assets/images/jeevesh.png" height="300">
 
-    <ul>
-        <li>Name:Jeevesh Pathak</li>
-        <li>Age:20 years</li>
-        <li>Gender:Male</li>
-        <li>Birth Place:Bina India</li>
-    </ul>
+        <ul>
+            <li>Name:Jeevesh Pathak</li>
+            <li>Age:20 years</li>
+            <li>Gender:Male</li>
+            <li>Birth Place:Bina India</li>
+        </ul>
+    </div>
+    
     <hr />
-    <h2>Carrer Objective</h2>
-    <p>Highly motivated and talented software engineering graduate with a strong foundation in computer science and a
+    <h2 >Carrer Objective</h2>
+    <p class="detail">Highly motivated and talented software engineering graduate with a strong foundation in computer science and a
         passion for building innovative software solutions. Seeking a challenging role as a Software Engineer, where I
         can leverage my technical expertise, problem-solving skills, and dedication to contribute to cutting-edge
         projects and drive technological advancements.Eager to learn and grow within a dynamic and collaborative
@@ -30,7 +37,30 @@
         of industry trends and adopting best practices to deliver scalable and efficient software solutions.</p>
     <hr />
     <h2>Education</h2>
-    <h3>B.Tech</h3>
+    <div class="detail">
+        <h3>B.Tech</h3>
+        <ul>
+            <li>Institution:VNIT Nagpur</li>
+            <li>Brach:Electronics and Communication Engineering</li>
+            <li>CGPA:8.25</li>
+        </ul>
+        <h3>Class XII</h3>
+        <ul>
+            <li>Institution:Sankar Public School</li>
+            <li>Stream:PCM</li>
+            <li>Percentage:92.6 %</li>
+        </ul>
+        <h3>Class X</h3>
+        <ul>
+            <li>Institution:Nirmal Jyoti School</li>
+            <li>Percentage:93 %</li>
+        </ul>
+    </div>
+    
+    <hr />
+    <h2>Skills</h2>
+    <div class="detail">
+        <h3>B.Tech</h3>
     <ul>
         <li>Institution:VNIT Nagpur</li>
         <li>Brach:Electronics and Communication Engineering</li>
@@ -47,29 +77,11 @@
         <li>Institution:Nirmal Jyoti School</li>
         <li>Percentage:93 %</li>
     </ul>
-    <hr />
-    <h2>Skills</h2>
-    <h3>Programming Languages</h3>
-    <ul>
-        <li>C++:⭐️⭐️⭐️⭐️⭐️</li>
-        <li>C:⭐️⭐️⭐️</li>
-        <li>Python:⭐️⭐️⭐️</li>
-    </ul>
-    <h3>Web Designing</h3>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Java Script</li>
-    </ul>
-    <h3>Sofware Packages</h3>
-    <ul>
-        <li>MATLAB</li>
-        <li>Multisim</li>
-
-    </ul>
+    </div>
     <hr />
     <h2>Contact Me</h2>
-    <p>Tel: +91 8959917849</p>
+    <div class="detail">
+        <p>Tel: +91 8959917849</p>
 
     <p>Email: <a
             href="https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSHvntvWKvcHPVLCtfqVTPrnmGHrFRsqTFBvxNpRKNgKbSHNsHDqwGmpdQztRtJWCXPQfbrS">jeevesh.nit21@gmail.com</a>
@@ -85,8 +97,11 @@
         Bina<br />
         India <br />
     </p>
+    </div>
     <hr />
-    <footer> <small>Copyright © Jeevesh Pathak Resume . All Rights Reserved.</small></footer>
+    <div class="copy">
+        <footer> <small>Copyright © Jeevesh Pathak Resume . All Rights Reserved.</small></footer>
+    </div>
 </body>
 
 </html>
