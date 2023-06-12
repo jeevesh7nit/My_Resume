@@ -1,6 +1,6 @@
 *{
-    background-color: #025464;
-    color: #7C96AB;
+    background-color: #59253a;
+    color: white;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
    
@@ -9,15 +9,18 @@
 body{
     margin-left: 40px;
 }
+
+
 h1{
-    color: #E96479 ;
+   
+    color: #edb5bf;
     font-size: 50px;
     text-align: center;
 }
 
 
 h2{
-    color: #E8AA42;
+    color: #f78888;
     font-size: 37px;
 }
 #profile{
