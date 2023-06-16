@@ -23,23 +23,32 @@ h2{
     color: #f78888;
     font-size: 37px;
 }
+
 #profile{
     width: 250px;
     border-radius: 15px;
-    display: inline-block;
+    /* display: inline-block; */
     height: 270px;
     border: 4px solid #47A992;
-    position: relative;
+    /* position: relative; */
 
 }
 #nameage{
-     width: 300px;
-    display: inline-block;
-    position: absolute;
-    top: 230px;
-    
+    width: 300px;
+   display: inline-block;
+   
+   
 }
-
+@media (min-width:600px){
+   
+   #nameage{
+    width: 300px;
+   display: inline-block;
+   position: absolute;
+   top: 230px;
+   
+}
+}
 h3{
     color: #E57C23;
 }
